@@ -1,0 +1,9 @@
+{
+	"name": "adfazureproj",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e461a418-cac8-4c13-90d3-f7a80832aab0",
+		"tenantId": "a8eec281-aaa3-4dae-ac9b-9a398b9215e7"
+	}
+}
