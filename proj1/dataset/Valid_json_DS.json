@@ -1,0 +1,19 @@
+{
+	"name": "Valid_json_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLake_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "stagingFolder",
+				"fileSystem": "input"
+			}
+		},
+		"schema": {}
+	}
+}
