@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfazureproj"
+		},
+		"AzureDataLake_LS_accountKey": {
+			"value": ""
+		},
+		"S3_LS_secretAccessKey": {
+			"value": ""
+		},
+		"SQL_DB_DS_connectionString": {
+			"value": ""
+		},
+		"AzureDataLake_LS_properties_typeProperties_url": {
+			"value": "https://azurestorageproj.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://azurekeyvaultproj.vault.azure.net/"
+		},
+		"S3_LS_properties_typeProperties_accessKeyId": {
+			"value": "AKIA6ODVAK672ULETVDG"
+		},
+		"Storage_Trigger_forJson_properties_typeProperties_scope": {
+			"value": "/subscriptions/dc1b6224-8a23-493f-9d6d-4d9ae9ed0395/resourceGroups/project1/providers/Microsoft.Storage/storageAccounts/azurestorageproj"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
